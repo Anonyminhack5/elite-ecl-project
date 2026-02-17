@@ -1,3 +1,4 @@
+'use client';
 
 import React from 'react';
 
@@ -21,7 +22,7 @@ const Testimonials: React.FC = () => {
             </div>
             
             <p className="text-lg md:text-2xl font-medium leading-relaxed text-gray-800 mb-10">
-              "Details Are Kind To Your Body And Pleasant To Look At. The Professional Skill And Compassion Were Evident. This Is A List Of Meticulous Work Done Mostly For High-Standard Clients."
+              {'"Details Are Kind To Your Body And Pleasant To Look At. The Professional Skill And Compassion Were Evident. This Is A List Of Meticulous Work Done Mostly For High-Standard Clients."'}
             </p>
             
             <div>

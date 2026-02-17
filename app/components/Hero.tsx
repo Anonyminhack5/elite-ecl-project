@@ -33,20 +33,16 @@ const Hero: React.FC = () => {
       className="relative pt-48 pb-24 px-6 min-h-screen flex flex-col items-center justify-center overflow-hidden"
       style={{ opacity }}
     >
-      {/* Main Background Image - Multiple Cleaning Utensils */}
       <div className="absolute inset-0 -z-20">
         <img 
           src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=1920" 
           alt="Elite Cleaning Supplies Background" 
           className="w-full h-full object-cover"
         />
-        {/* Overlay to make image visible */}
         <div className="absolute inset-0 bg-white/30 backdrop-blur-[1px]" />
-        {/* Gradient to ensure bottom text visibility */}
         <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white" />
       </div>
 
-      {/* Heading Group */}
       <div className={`text-center max-w-5xl mx-auto z-10 transition-all duration-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
         <h1 className="text-5xl md:text-7xl lg:text-9xl font-black leading-[1.0] mb-8 tracking-tighter text-gray-900 drop-shadow-xl">
           Creating Comfort <br className="hidden md:block" />
@@ -57,7 +53,6 @@ const Hero: React.FC = () => {
         </p>
       </div>
 
-      {/* CTA Button */}
       <div className={`relative z-20 transition-all duration-1000 delay-300 transform ${isVisible ? 'scale-100 opacity-100' : 'scale-90 opacity-0'}`}>
         <button 
           onClick={() => redirectToWhatsApp()}

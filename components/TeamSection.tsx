@@ -1,6 +1,7 @@
+'use client';
 
 import React from 'react';
-import { TEAM_MEMBERS } from '../constants';
+import { TEAM_MEMBERS } from '@/lib/constants';
 
 const TeamSection: React.FC = () => {
   return (

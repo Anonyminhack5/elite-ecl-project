@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { STATS } from '@/lib/constants';
 
 const AboutSection: React.FC = () => {
   return (
@@ -14,7 +13,6 @@ const AboutSection: React.FC = () => {
                  <img src="https://images.unsplash.com/photo-1581578731548-c64695ce6958?auto=format&fit=crop&q=80&w=600" alt="cleaning" className="w-full h-full object-cover" />
               </div>
 
-              {/* Stats Overlay Bubbles */}
               <div className="absolute -left-4 top-[30%] w-32 h-32 md:w-40 md:h-40 bg-[#d9fdd2] rounded-full flex flex-col items-center justify-center shadow-lg border-4 border-white transform hover:scale-105 transition-transform">
                 <span className="text-xl md:text-2xl font-bold">30+</span>
                 <span className="text-[8px] md:text-[10px] text-gray-500 uppercase tracking-widest text-center">Homes<br/>Cleaned</span>
